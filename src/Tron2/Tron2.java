@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package dragon_snake;
+package Tron2;
 
 import environment.ApplicationStarter;
 
@@ -11,13 +11,13 @@ import environment.ApplicationStarter;
  *
  * @author BBC132
  */
-public class Dragon_Snake {
+public class Tron2 {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        ApplicationStarter.run("Dragon Run", new Castle());
+        ApplicationStarter.run("Snake", new Background());
     }
     
 }
